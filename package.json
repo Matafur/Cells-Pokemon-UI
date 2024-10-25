@@ -1,0 +1,35 @@
+{
+  "name": "@bbva-web-components/pokemones-ui",
+  "version": "1.0.0-rc.1",
+  "description": "",
+  "keywords": [],
+  "exports": {
+    ".": "./index.js",
+    "./pokemones-ui.js": "./pokemones-ui.js"
+  },
+  "main": "index.js",
+  "type": "module",
+  "files": [
+    "/src/",
+    "/locales/",
+    "*.js",
+    "!**/*.scss"
+  ],
+  "dependencies": {
+    "@bbva-web-components/bbva-button-default": "^5.15.0",
+    "@bbva-web-components/bbva-core-lit-helpers": "^1.0.0",
+    "@bbva-web-components/bbva-foundations-grid-tools-layout": "^1.0.4",
+    "@bbva-web-components/bbva-foundations-spinner": "^1.0.14",
+    "@bbva-web-components/bbva-foundations-styles": "^2.0.0",
+    "@bbva-web-components/bbva-foundations-icons": "^1.0.0",
+    "lit-element": "^2.0.0",
+    "lit-html": "^1.0.0"
+  },
+  "devDependencies": {
+    "@bbva-web-components/bbva-dev-demo-helper": "^1.0.0",
+    "@bbva-web-components/bbva-dev-demo-theme": "^2.0.0",
+    "@bbva-web-components/bbva-foundations-sass": "^1.0.0",
+    "@open-wc/testing": "^3.0.0"
+  },
+  "customElements": "custom-elements.json"
+}
