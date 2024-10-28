@@ -5,6 +5,9 @@ import styles from './pokemones-ui.css.js';
 import { bbvaInternational } from '@bbva-web-components/bbva-foundations-icons';
 import '@bbva-web-components/bbva-core-icon/bbva-core-icon.js';
 import '@meraki/pokemones-dm/pokemones-dm.js';
+import '@bbva-web-components/bbva-core-heading/bbva-core-heading.js';
+
+
 
 const icons = bbvaInternational();
 
@@ -90,10 +93,6 @@ export class PokemonesUi extends LitElement {
         @detail-opened-change="${(ev) => (this.detailOpened = ev.detail.value)}"
       >
         <div slot="app-top-content" class="overlap">
-          <div class="contenido">
-            <bbva-core-icon icon="${this.mainIcon}"></bbva-core-icon>
-            <h1>Pokemones</h1>
-          </div>  
           <bbva-foundations-grid-tools-layout layout='[{"slot":"single","cols":{"sm":12,"md":12,"lg":12}}]'>
           <div slot="single">
             <div class="card-container">

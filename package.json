@@ -17,11 +17,12 @@
   ],
   "dependencies": {
     "@bbva-web-components/bbva-button-default": "^5.15.0",
+    "@bbva-web-components/bbva-core-heading": "^1.1.1",
     "@bbva-web-components/bbva-core-lit-helpers": "^1.0.0",
     "@bbva-web-components/bbva-foundations-grid-tools-layout": "^1.0.4",
+    "@bbva-web-components/bbva-foundations-icons": "^1.0.0",
     "@bbva-web-components/bbva-foundations-spinner": "^1.0.14",
     "@bbva-web-components/bbva-foundations-styles": "^2.0.0",
-    "@bbva-web-components/bbva-foundations-icons": "^1.0.0",
     "@meraki/pokemones-dm": "git+https://github.com/Matafur/Cells-Pokemon-DM.git#main",
     "lit-element": "^2.0.0",
     "lit-html": "^1.0.0"

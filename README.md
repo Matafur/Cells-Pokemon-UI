@@ -1,66 +1,53 @@
-# @bbva-web-components/pokemones-ui
 
-## Package info
+# Interfaz Grafica Pokemones
 
-### Package installation
+Componente para la renderización del listado de todos los pokemones a traves de cards donde podrás ver su nombre, imagen y tipo de pokemón tambien es posible encontrar su cadena evolutiva. 
 
-Installation using NPM
+
+## Screenshots
+Listado
+![App Screenshot](https://i.postimg.cc/P5Ddv8fv/Pokemon-List.jpg)
+
+Evoluciones
+![App Screenshot](https://i.postimg.cc/5NTxtmJM/Pokemon-Evolution.jpg)
+
+
+## Levantar localmente
+
+Prequisitos
 
 ```bash
-npm install @bbva-web-components/pokemones-ui
+  - Tener instalado @Cells
+  - Node --Version 20.18.0
+  - Npm --Version 10.8.2
 ```
 
-### Entry points & exports
+Clonar el proyecto
 
-- (Default entry point)
-  - PokemonesUi (Class)
-- pokemones-ui.js
-  - pokemones-ui (Custom Element)
-
-
-## PokemonesUi (Class) pokemones-ui (Custom Element) 
-
-### Extends from
-
-LitElement (lit-element package)
-
-### Usage
-
-Import and extend the class:
-
-```js
-import { PokemonesUi } from '@bbva-web-components/pokemones-ui';
-
-class ExampleElement extends PokemonesUi {
-  ...
-}
+```bash
+  git clone https://github.com/Matafur/Cells-Pokemon-UI.git
 ```
 
-Use the custom element (defined globally):
+Ir a la carpeta del proyecto
 
-```js
-import '@bbva-web-components/pokemones-ui/pokemones-ui.js';
+```bash
+  cd Pokemon-UI
 ```
 
-```html
-<pokemones-ui ...>
-  ...
-</pokemones-ui>
+Instalar Dependencias
+
+```bash
+  npm i
 ```
 
-### Description
+Iniciar el servidor
 
-![LitElement component](https://img.shields.io/badge/litElement-component-blue.svg)
-
-This component ...
-
-Example:
-
-```html
-  <pokemones-ui></pokemones-ui>
+```bash
+  cells lit-component:serve
 ```
 
-### Properties
 
-- **name**: string = "Cells" (attribute: name)
-    Description for property
+## Autor
+
+- [@Matafur](https://github.com/Matafur)
+
