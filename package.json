@@ -22,6 +22,7 @@
     "@bbva-web-components/bbva-foundations-spinner": "^1.0.14",
     "@bbva-web-components/bbva-foundations-styles": "^2.0.0",
     "@bbva-web-components/bbva-foundations-icons": "^1.0.0",
+    "@meraki/pokemones-dm": "git+https://github.com/Matafur/Cells-Pokemon-DM.git#main",
     "lit-element": "^2.0.0",
     "lit-html": "^1.0.0"
   },

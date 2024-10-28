@@ -5,6 +5,7 @@ dist/
 build/
 components/
 
+
 *-log.json
 *-error.json
 *-debug.log
@@ -18,3 +19,5 @@ coverage*
 
 cells.log
 __deps__.json
+
+package-lock.json

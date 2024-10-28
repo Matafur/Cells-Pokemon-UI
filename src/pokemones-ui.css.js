@@ -50,6 +50,27 @@ export default css`
   text-align: center;
 }
 
+.contenido {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
 :host {
   display: block;
   box-sizing: border-box;
