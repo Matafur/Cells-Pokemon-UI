@@ -16,18 +16,35 @@ export default css`
   margin: 10px;
   text-align: center;
   transition: transform 0.2s;
-  flex: 0 1 calc(25% - 20px);
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .card:hover {
   transform: scale(1.2);
 }
 
+.imagen-container {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.detalles-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+}
+
 .pokemon-image {
   max-width: 150px;
   max-height: 150px;
-  margin-bottom: 10px;
+  object-fit: contain;
 }
 
 .modal {
@@ -48,27 +65,6 @@ export default css`
   border: 1px solid #888;
   width: 80%;
   text-align: center;
-}
-
-.contenido {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: 24px;
-}
-
-p {
-  margin: 0;
-  font-size: 16px;
-  color: #666;
-  margin-top: 10px;
 }
 
 :host {

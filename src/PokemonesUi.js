@@ -97,22 +97,26 @@ export class PokemonesUi extends LitElement {
                       (pokemon) => html`
                         <div class="card">
                           <h2>Pokémon: ${pokemon.name}</h2>
-                          <img
-                            src="${pokemon.image}"
-                            alt="${pokemon.name}"
-                            class="pokemon-image"
-                          />
-                          <p>Tipo: ${pokemon.types}</p>
-                          <bbva-button-default
-                            size="l"
-                            @click="${() =>
-                              this.fetchEvolution(
-                                pokemon.speciesUrl,
-                                pokemon.name,
-                              )}"
-                          >
-                            Ver Detalles
-                          </bbva-button-default>
+                          <div class="imagen-container">
+                            <img
+                              src="${pokemon.image}"
+                              alt="${pokemon.name}"
+                              class="pokemon-image"
+                            />
+                          </div>
+                          <div class="detalles-container">
+                            <p>Tipo: ${pokemon.types}</p>
+                            <bbva-button-default
+                              size="l"
+                              @click="${() =>
+                                this.fetchEvolution(
+                                  pokemon.speciesUrl,
+                                  pokemon.name,
+                                )}"
+                            >
+                              Ver Detalles
+                            </bbva-button-default>
+                          </div>
                         </div>
                       `,
                     )
