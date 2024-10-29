@@ -86,12 +86,7 @@ export class PokemonesUi extends LitElement {
 
   render() {
     return html`
-      <demo-web-template
-        page-title="pokemon-page"
-        detail-variant="dark"
-        reset-detail-on-state-change
-        @detail-opened-change="${(ev) => (this.detailOpened = ev.detail.value)}"
-      >
+
         <div slot="app-top-content" class="overlap">
           <bbva-foundations-grid-tools-layout layout='[{"slot":"single","cols":{"sm":12,"md":12,"lg":12}}]'>
           <div slot="single">
@@ -179,7 +174,6 @@ export class PokemonesUi extends LitElement {
                       }
           </div>
         </bbva-foundations-grid-tools-layout>
-      </demo-web-template>
       <pokemones-dm .arrayPokemon="${this.arrayPokemon}"></pokemones-dm>
     `;
   }
